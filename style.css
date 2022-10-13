@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: #707070;
+}
+
+.nav-link:hover {
+    color: #FF136F;
+}
+
+.nav-item .active {
+    color: #FF136F !important;
+}
+
+/* .carousel-img img {
+    width: 100%;
+} */
+.carousel {
+    margin: 100px auto;
+}
+
+.carousel-inner {
+    background-color: #FEEAE9;
+    border-radius: 15px;
+}
+
+.carousel-text h2 {
+    font-size: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #1F1F1F;
+}
+
+.carousel-text p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.carousel-text .different-color {
+    color: #FF136F;
+}
+
+.btn {
+    background-image: linear-gradient(#FF5599, #FF136F);
+    text-transform: uppercase;
+    color: white;
+}
+
+/* categories section start */
+.categories {
+    margin-bottom: 80px;
+}
+
+.categories h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.watch {
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    border-radius: 15px;
+}
+
+.bag {
+    background-image: linear-gradient(to right, #FF589B, #FF136F);
+    border-radius: 15px;
+
+}
+
+.shoes {
+    background-image: linear-gradient(to right, #4289FF, #3F07F8);
+    border-radius: 15px;
+}
+
+/* product section */
+#product {
+    background-color: #F8F8F8;
+}
+
+.product-cards h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.product-cards h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #FF9D00;
+}
+
+.card-body h5 {
+    font-size: 24;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.card-body p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #1F1F1F;
+    /* padding: 80px 0 20px; */
+    padding-top: 80px;
+}
+
+footer p {
+    font-size: 18px;
+    color: #707070;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #FEEAE9;
+    margin: 80px 0 100px;
+}
+
+footer .input-group {
+    padding: 30px 0 100px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    footer .input-group {
+        width: 90%;
+    }
+}
